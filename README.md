@@ -66,4 +66,5 @@ The pipeline follows a clear, automated ETL process:
 This project uses a specific prompt to guide the LLM to generate high-quality, structured analysis. The prompt assigns the LLM the persona of a senior analyst and asks it to perform a "deep dive" analysis rather than a simple summary.
 - System Prompt: "You are a senior blockchain data analyst providing a daily intelligence report. You have deep knowledge of typical Ethereum network activity..."
 - User Task: "Based on the metrics, provide your analysis in a structured format including an Executive Summary, Key Metric Analysis, and an Overall Hypothesis for the day's activity."
+
 This approach demonstrates how LLMs can be integrated into a data pipeline not just to report data, but to create a new layer of automated, valuable insight.
